@@ -92,7 +92,7 @@ function draw() {
   image(boxBack, baseWidth / 2, baseHeight / 2, baseWidth, baseHeight);
   fill(255);
   rect(baseWidth / 2, baseHeight / 2, baseWidth/10, baseHeight/10);
-  noFill(255);
+  noFill();
 
   if (state === "open" || state === "closing" || state === "opening") {
     let now = millis();
