@@ -162,7 +162,7 @@ function mousePressed() {
     setTimeout(() => {
       startOpening();
       canClick = true;
-    }, 300); // ← 300ms遅らせる
+    }, 300); 
   } else if (state === "open") {
     const simauX = baseWidth / 2 - baseWidth / 3;
     const simauY = baseHeight / 2 - baseHeight / 3;
