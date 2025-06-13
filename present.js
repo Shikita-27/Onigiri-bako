@@ -92,7 +92,7 @@ function draw() {
   image(boxBack, baseWidth / 2, baseHeight / 2, baseWidth, baseHeight);
   fill(255);
   noStroke();
-  rect(baseWidth / 2, baseHeight / 2, baseWidth/15, baseHeight/10);
+  rect((baseWidth / 2)-20, baseHeight / 2, baseWidth/15, baseHeight/10);
   noFill();
 
   if (state === "open" || state === "closing" || state === "opening") {
